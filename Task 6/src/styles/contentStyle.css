@@ -1,0 +1,40 @@
+#content {
+    text-align: center;
+}
+#heading {
+    margin-top: 2%;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 2%;
+}
+#caption {
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 3%;
+}
+.data1 {
+    padding-top: 5%;
+    padding-bottom: 40%;
+}
+.data2 {
+    padding-top: 5%;
+    padding-bottom: 40%;
+    background-color: white;
+}
+@media only screen and (max-width: 1020px) {
+    .data1 {
+        padding-bottom: 50%;
+    }
+    .data2 {
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .data1 {
+        padding-bottom: 0px;
+    }
+    .data2 {
+        padding-bottom: 0px;
+    }
+}
