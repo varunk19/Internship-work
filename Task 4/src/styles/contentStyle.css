@@ -1,0 +1,53 @@
+.others {
+    text-align: center;
+    color: white;
+}
+.eventbrite {
+   color: orangered;
+}
+.content {
+    background-color: white;
+    padding: 2% 2% 2% 2%;
+}
+#user{
+    font-weight: 900;
+    color: indigo;
+}
+#image img{
+    width: 100%;
+}
+.center {
+    text-align: center;
+}
+#about{
+    color: indigo;
+}
+#time {
+    font-weight: bolder;
+    color: darkslategrey;
+    font-size: 20px;
+    margin-bottom: 0.5%;
+    margin-top: 0px;
+}
+#location {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+button {
+    background-color: orangered;
+    border: 0px;
+    padding: 1% 1% 1% 1%;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.others {
+    font-size: 13px;
+    font-weight: 500;
+}
+#footcontent {
+    margin-top: 2%;
+}
+.links {
+    color: orangered;
+}
