@@ -1,0 +1,23 @@
+#contact {
+    padding: 1% 0px 0px 2%;
+    font-size: 20px;
+    width: 96%;
+}
+input {
+    width: 97.5%;
+    padding: 1% 1% 1% 1%;
+    margin-bottom: 1%;
+    font-size: 15px;
+}
+#contact button {
+    margin-top: 1%;
+    border: 0px;
+    background-color: black;
+    color: white;
+    padding: 1% 1% 1% 1%;
+}
+@media only screen and (max-width: 675px) {
+    input {
+        margin-bottom: 2%;
+    }
+}

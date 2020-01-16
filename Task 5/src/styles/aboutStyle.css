@@ -1,0 +1,46 @@
+#about {
+    padding: 32% 0px 2% 2%;
+    font-size: 20px;
+    margin-bottom: 35%;
+    width: 96%;
+}
+#desc {
+    font-size: 15px;
+}
+.people {
+    float: left;
+    width: 24%;
+    margin: 3% 1% 5% 0px;
+}
+.people img {
+    width: 100%;
+    height: 100%;
+}
+.desig {
+    font-size: 15px;
+    color: darkslategrey;
+}
+.bio {
+    font-size: 16px;
+}
+.people button {
+    width: 100%;
+    padding: 2% 2% 2% 2%;
+    background-color: lightgrey;
+    font-size: 15px;
+    font-weight: 530;
+    border: 0px;
+}
+.people button:hover {
+    background-color: darkgrey;
+}
+@media only screen and (max-width: 675px) {
+    #about {
+        padding-top: 3%;
+        margin-bottom: 1%;
+    }
+    .people {
+        float: none;
+        width: 100%;
+    }
+}

@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    margin: 0px 0px 0px 0px;
+}
+#header {
+    padding: 1% 0px 1% 2%;
+    background-color: white;
+    display: inline-block;
+    width: 98%;
+    position: sticky;
+    left: 0;
+    top: 0;
+    box-shadow: 0px 1px 3px #000000;
+}
+#logo {
+    float: left;
+    width: 48%;
+    display: inline-block;
+    font-family: sans-serif;
+}
+#leftLinks {
+    text-align: right;
+    float: left;
+    width: 49%;
+}
+#BR {
+    font-weight: 800;
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+#footer {
+    background-color: black;
+    padding: 1% 1% 1% 1%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+@media only screen and (max-width: 675px) {
+    #logo {
+        float: left;
+        width: 50%;
+        display: inline-block;
+        font-family: sans-serif;
+    }
+    #leftLinks {
+        text-align: right;
+        float: left;
+        width: 50%;
+    }
+    a {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+}

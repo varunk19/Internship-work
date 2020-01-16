@@ -1,0 +1,73 @@
+#projects {
+    padding: 2% 0px 2% 2%;
+    font-size: 20px;
+    width: 96%;
+}
+.proimages {
+    margin-top: 3%;
+}
+.type {
+    background-color: black;
+    color: white;
+    padding: 0.8% 2% 2% 2%;
+    max-width: inherit;
+    letter-spacing: 0px;
+}
+.pro1 {
+    margin: 0px 1.5% 1% 0%;
+    background-image: url('../../src/assets/images/house1.jpg');
+    background-repeat: no-repeat;
+    background-size: 375px 225px;
+    height: 225px;
+    width: 23.9%;
+    float: left;
+}
+.pro2 {
+    margin: 0px 1.5% 1% 0%;
+    background-image: url('../../src/assets/images/house2.jpg');
+    background-repeat: no-repeat;
+    background-size: 375px 225px;
+    height: 225px;
+    width: 23.9%;
+    float: left;
+}
+.pro3 {
+    margin: 0px 1.5% 1% 0%;
+    background-image: url('../../src/assets/images/house3.jpg');
+    background-repeat: no-repeat;
+    background-size: 375px 225px;
+    height: 225px;
+    width: 23.9%;
+    float: left;
+}
+.pro4 {
+    margin: 0px 0px 1% 0%;
+    background-image: url('../../src/assets/images/house4.jpg');
+    background-repeat: no-repeat;
+    background-size: 375px 225px;
+    height: 225px;
+    width: 23.8%;
+    float: left;
+}
+@media only screen and (max-width: 675px) {
+    .pro1{
+        background-size: cover;
+        float: none;
+        width: 100%;
+    }
+    .pro2{
+        background-size: cover;
+        float: none;
+        width: 100%;
+    }
+    .pro3{
+        background-size: cover;
+        float: none;
+        width: 100%;
+    }
+    .pro4{
+        background-size: cover;
+        float: none;
+        width: 100%;
+    }
+}
