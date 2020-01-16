@@ -1,0 +1,98 @@
+#body{
+    text-align: center;
+    padding-left: 5%;
+}
+img{
+    width: 400px;
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+}
+.data1{
+    color: white;
+    margin: 5% 5% 5% 8%;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 4px solid orange;
+    max-width: 25%;
+    float: left;
+}
+.data2{
+    color: white;
+    margin: 5% 0px 5% 0px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 4px solid orange;
+    max-width: 25%;
+    float: left;
+}
+.data3{
+    color: white;
+    margin: 5% 15% 5% 5%;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 4px solid orange;
+    max-width: 25%;
+    float: left;
+}
+@media only screen and (max-width: 1600px) {
+    img{
+        width: 300px;
+        height: 300px;
+        margin: 0px 0px 0px 0px;
+    }
+    .data1{
+        color: white;
+        margin: 5% 5% 5% 5%;
+        padding: 0px 0px 0px 0px;
+        border-bottom: 4px solid orange;
+        max-width: 50%;
+        float: left;
+    }
+    .data2{
+        color: white;
+        margin: 5% 5% 5% 5%;
+        padding: 0px 0px 0px 0px;
+        border-bottom: 4px solid orange;
+        max-width: 50%;
+        float: left;
+    }
+    .data3{
+        color: white;
+        margin: 5% 5% 5% 5%;
+        padding: 0px 0px 0px 0px;
+        border-bottom: 4px solid orange;
+        max-width: 50%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 800px) {
+    #body{
+        padding-left: 0px;
+    }
+    img{
+        width: 350px;
+        height: 350px;
+        margin: 0px 0px 0px 0px;
+    }
+    .data1{
+        color: white;
+        margin: 5% 0px 5% 0px;
+        padding: 0px 0px 0px 0px;
+        border-bottom: 4px solid orange;
+        max-width: 100%;
+        float: none;
+    }
+    .data2{
+        color: white;
+        margin: 5% 0px 5% 0px;
+        padding: 0px 0px 0px 0px;
+        border-bottom: 4px solid orange;
+        max-width: 100%;
+        float: none;
+    }
+    .data3{
+        color: white;
+        margin: 5% 0px 5% 0px;
+        padding: 0px 0px 0px 0px;
+        border-bottom: 4px solid orange;
+        max-width: 100%;
+        float: none;
+    }
+}
