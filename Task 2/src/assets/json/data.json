@@ -1,0 +1,30 @@
+{
+    "cities":[
+              "Bangalore",
+              "Delhi",
+              "Hyderabad",
+              "Chennai",
+              "Vijayawada",
+              "Mumbai",
+              "Pune",
+              "Kochi",
+              "New York",
+              "Dubai",
+              "Bangkok",
+              "Toronto"
+             ],
+    "months":[
+              "January",
+              "February",
+              "March",
+              "April",
+              "May",
+              "June",
+              "July",
+              "August",
+              "September",
+              "October",
+              "November",
+              "December"
+             ]
+}

@@ -1,0 +1,74 @@
+#days{
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cities{
+    display: flex;
+    float: left;
+    text-align: center;
+    flex-direction: column;
+    padding: 1% 1% 1% 1%;
+    width: 10%;
+    border-right: 2px solid black;
+}
+#content{
+    padding-bottom: 0px;
+    display: block;
+    float: left;
+    width: 75%;
+    padding-top: 7%;
+    text-align: center;
+    text-align: center;
+}
+#city{
+    margin: 0px 0px 5% 0px;
+}
+#date{
+    margin: 5% 0px 0px 0px;
+}
+#month{
+    display: flex;
+    float: right;
+    padding: 1% 1% 1% 1%;
+    text-align: center;
+    width: 10%;
+    flex-direction: column;
+    border-left: 2px solid black;
+}
+#main{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+@media only screen and (max-width: 1520px) {
+    #content{
+        width: 75.4%;
+    }
+}
+@media only screen and (max-width: 662px) {
+    #content{
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #content{
+        padding: 0px 0px 0px 0px;
+        float: none;
+        width: 100%;
+    }
+    #month{
+        padding: 0px 0px 0px 0px;
+        float: none;
+        width: 100%;
+        border: 0px;
+        border-top: 2px solid black;
+    }
+    #cities{
+        padding: 0px 0px 0px 0px;
+        float: none;
+        width: 100%;
+        border: 0px;
+        border-bottom: 2px solid black;
+    }
+}
