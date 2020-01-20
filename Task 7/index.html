@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 7</title>
+    <link rel="stylesheet" href="src/styles/mainStyle.css">
+    <link rel="stylesheet" href="src/styles/contentStyle.css">
+</head>
+<body>
+   <script src="src/JS/variables.js"></script>
+   <script src="src/JS/addRow.js"></script>
+   <script src="src/JS/delRow.js"></script>
+    <div class="table">
+        <div class="heading">
+            <div class="cell sl">
+                <p>#</p>
+            </div>
+            <div class="cell">
+                <p>Product</p>
+            </div>
+            <div class="cell">
+                <p>Qty</p>
+            </div>
+            <div class="cell">
+                <p>Price</p>
+            </div>
+            <div class="cell">
+                <p>Total</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell sl">
+                <p>1</p>
+            </div>
+            <div class="cell">
+                <p><input type="text" name="c1"></p>
+            </div>
+            <div class="cell">
+                <p><input type="text" name="c2"></p>
+            </div>
+            <div class="cell">
+                <p><input type="text" name="c3"></p>
+            </div>
+            <div class="cell">
+                <p><input type="text" name="c4" disabled></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div id="buttons">
+        <div class="add">
+            <button>Add Row</button>
+        </div>
+        <div class="del">
+            <button>Delete Row</button>
+        </div>
+    </div>
+    <br>
+    <div class="table res">
+        <div class="row">
+            <div class="cell">
+                <p>Sub Total</p>
+            </div>
+            <div class="cell">
+                <p><input type="text" name="subt" disabled></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>Tax</p>
+            </div>
+            <div class="cell">
+                <p><input type="text" name="tax" value="10"> %</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>Tax Amount</p>
+            </div>
+            <div class="cell">
+                <p><input type="text" name="taxamt" disabled></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="cell">
+                <p>Grand Total</p>
+            </div>
+            <div class="cell">
+                <p><input type="text" name="grandt" disabled></p>
+            </div>
+        </div>
+    </div>
+    <script src="src/JS/main.js"></script>
+</body>
+</html>

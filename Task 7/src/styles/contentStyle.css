@@ -1,0 +1,50 @@
+.table {
+    display: table;
+    padding-left: 8%;
+}
+.heading {
+    display: table-row;
+    font-weight: bold;
+    text-align: center;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    border: solid;
+    border-width: thin;
+    width: 300px;
+}
+.sl {
+    width: 50px;
+}
+input {
+    border-radius: 3px;
+    border: 1px solid black;
+    width: 250px;
+    padding: 3% 3% 3% 3%;
+}
+button {
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding: 1% 2%;
+    background-color: white;
+}
+.add {
+    float: left;
+    text-align: left;
+    width: 40%;
+    margin-left: 10%;
+}
+.del {
+    text-align: right;
+    float: right;
+    width: 40%;
+    margin-right: 10%;
+}
+.res {
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+}
