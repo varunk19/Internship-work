@@ -49,7 +49,7 @@ function taxcalc(sub) {
 }
 function result(sub,tax) {
     let grand = document.getElementsByName("grandt")[0];
-    let res = sub - tax;
+    let res = sub + tax;
     grand.value = `${res.toFixed(2)}`;
 }
 init();
