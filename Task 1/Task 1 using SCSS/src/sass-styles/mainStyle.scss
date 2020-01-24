@@ -1,0 +1,18 @@
+@mixin margin(){
+    margin: 0px 0px 0px 0px;
+}
+@mixin header(){
+    padding: 1% 1% 1% 1%;
+    background-color: #1976d2;
+    color: white;
+    font-family: sans-serif;
+}
+body {
+    @include margin();
+}
+h1 {
+    @include margin();
+}
+#header {
+    @include header();
+}

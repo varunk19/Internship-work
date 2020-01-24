@@ -1,0 +1,105 @@
+@mixin content() {
+    overflow: auto;
+    padding: 5% 22% 10% 22%;
+}
+@mixin item() {
+    padding: 5% auto 5% auto;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+@mixin left() {
+    width: 40%;
+    flex: 50%;
+    text-align: center;
+}
+@mixin right() {
+    width: 60%;
+    flex: 50%;
+}
+@mixin others() {
+    color: darkslategray;
+    font-family: sans-serif;
+    font-size: 120%;
+    margin: 3% 0px 0px 0px;
+}
+@mixin off() {
+    margin-bottom: 3%;
+}
+@mixin name() {
+    font-family: sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    color: #1976d2;
+    margin: 2% 0px 0px 0px;
+}
+@mixin desc() {
+    color: darkslategray;
+    font-family: sans-serif;
+    margin: 2% 0px 0px 0px;
+    font-size: 90%;
+    font-weight: 540%;
+}
+@mixin mrp() {
+    text-decoration: line-through;
+}
+@mixin rs() {
+    font-weight: bolder;
+}
+@mixin option() {
+    background-color: limegreen;
+    color: black;
+    border: 0px;
+    padding: 2% 2% 2% 2%;
+    border-radius: 2px;
+    font-weight: 600;
+}
+@mixin change() {
+    padding: 0px 0px 0px 0px;
+    border-radius: 50px;
+    width: 6%;
+    height: 10%;
+    font-size: 150%;
+}
+@mixin qty() {
+    display: inline-flex;
+}
+#content{
+    @include content();
+}
+.item{
+    @include item();
+}
+.left{
+    @include left();
+}
+.right{
+    @include right();
+}
+.others{
+    @include others();
+}
+.off{
+    @include off();
+}
+.name{
+    @include name();
+}
+.desc{
+    @include desc();
+}
+.mrp{
+    @include mrp();
+}
+.rs{
+    @include rs();
+}
+.option{
+    @include option();
+}
+.change{
+    @include change();
+}
+.qty{
+    @include qty();
+}
