@@ -5,7 +5,7 @@
             <p>Total: {{total}}</p>
         </div>
         <div id="buy">
-            <p><button id="checkout" disabled @click="display">Checkout</button></p>
+            <p><button id="checkout" :disabled="disablebtn" @click="display">Checkout</button></p>
         </div>
     </div>
 </template>
@@ -17,9 +17,9 @@ export default {
     watch: {
         qty: function() {
             if(this.qty==0)
-                document.getElementById("checkout").disabled=true;
+                this.disablebtn=true;
             else
-                document.getElementById("checkout").disabled=false;
+                this.disablebtn=false;
         }
     },
     methods: {
